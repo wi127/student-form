@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Welcome To Registration Form</title>
+</head>
+
+<body>
+    <h2 id="al">Admission Form</h2>
+    <!-- Main div code -->
+    <div id="main">
+        <div class="h-tag">
+            <h2>Create Your Account</h2>
+        </div>
+        <!-- create account div -->
+        <div class="login">
+            <table cellspacing="2" align="center" cellpadding="8" border="0">
+                <tr>
+                    <td align="right">Enter Name:</td>
+                    <td><input type="text" placeholder="Enter Full Name" id="t1" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td align="right">Enter Email Address:</td>
+                    <td><input type="text" placeholder="Enter Email Address here" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td align="right">Mobile Number:</td>
+                    <td><input type="text" placeholder="Enter Phone Number" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td align="right">Date of Birth:</td>
+                    <td><input type="text" placeholder="Enter Date of Birth" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td align="right">Gender:</td>
+                    <td><input type="text" placeholder="Gender" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td align="right">Address:</td>
+                    <td><input type="text" placeholder="Enter Your Address" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td align="right">Country:</td>
+                    <td><input type="text" placeholder="Enter Your Country" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td align="right">Course Applied:</td>
+                    <td><input type="text" placeholder="Enter Course You Applied For" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="reset" value="Clear Form" onclick="clearFunc()" id="res" class="btn-clear" />
+                        <input type="submit" value="Submit" class="btn-submit" onclick="registration()" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- create account box ending here.. -->
+    </div>
+    <!-- Main div ending here... -->
+    <script src="script.js"></script>
+</body>
+</html>
+
